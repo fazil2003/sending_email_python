@@ -2,7 +2,7 @@
 import smtplib 
   
 # list of email_id to send the mail 
-li = ["test@gmail.com","test2@gmail.com] 
+li = ["test@gmail.com","test2@gmail.com"] 
   
 for dest in li: 
     s = smtplib.SMTP('smtp.gmail.com', 587) 
